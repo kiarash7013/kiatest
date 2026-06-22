@@ -7,11 +7,11 @@
   </head>
   <body>
     
-	<div class="bg-white p-8   container ">
+	<div class="bg-white p-8   container  ">
     	
     	<h2 id="status-text" class="text-xl font-bold text-center text-gray-800 mb-6">ثبت سفارش</h2>
  
-    	<div class="relative flex justify-between items-center mb-8">
+    	<div class="relative flex justify-between items-center mb-8 z-10">
  	       <div class="absolute w-full h-1 bg-gray-200 top-1/2 -translate-y-1/2 -z-10"></div>
         	<div id="progress" class="absolute w-0 h-1 bg-green-500 top-1/2 -translate-y-1/2 -z-10 transition-all "></div>
  
@@ -21,13 +21,21 @@
         	<div class="step w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold bg-gray-200 text-gray-500">4</div>
     	</div>
  
-    	<button id="nextBtn" class="w-full bg-blue-600 hover:bg-blue-800 text-white py-2 rounded-lg font-medium transition">
+    	<button id="Btn" class="w-full bg-blue-600 hover:bg-blue-800 text-white py-2 rounded-lg font-medium transition">
         	مرحله‌ی بعد
     	</button>
     	
 	</div>
 
+<script>
+    const step1 = document.getElementById("step1");
+    const step2 = document.getElementById("step2");
+    const step3 = document.getElementById("step3");
+    const step4 = document.getElementById("step4");
+    
 
+
+</script>
 
   </body>
 </html>
